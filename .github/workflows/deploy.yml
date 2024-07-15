@@ -3,7 +3,11 @@ name: Build and Deploy Docker Image
 on:
   push:
     branches:
+<<<<<<< HEAD
       - main
+=======
+      - main  
+>>>>>>> 460752f47630afc91e718d74ba4103704ebe8f04
 
 jobs:
   build:
