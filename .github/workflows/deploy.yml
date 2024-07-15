@@ -22,7 +22,7 @@ jobs:
     - name: Build and push Docker image
       env:
         IMAGE_NAME: pawpal-help-center-image
-        DOCKERFILE_PATH: ./path/to/your/Dockerfile
+        DOCKERFILE_PATH: Dockerfile
         TAG: latest  # Replace with your desired tag
       run: |
         docker build -t $IMAGE_NAME:$TAG $DOCKERFILE_PATH
